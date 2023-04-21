@@ -1,0 +1,198 @@
+body{
+    background-color: white;
+    font-family: 'Barlow';
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    color: #1BC0C6;
+  }
+  h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: -2px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.5rem;
+    outline: none;
+    text-align: center;
+  }
+  h1:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+    color: grey;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    transition: 700ms ease;
+  
+  }
+  nav li a:hover {
+    background-color: #111111;
+    font-weight: bolder;
+  }
+  #sobremi{
+    background-color: #2AC1C6;
+    height: 100vh;
+    display: flex;
+  }
+  #sobremi div{
+    flex: 50%;
+    padding: 20px;
+    text-align: right;
+  }
+  #sobremi div p{
+    text-align: justify;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  #sobremi h2{
+    text-align: justify;
+    font-size: 50px;
+    color: #FFFFFF;
+  }
+  #sobremi h2:hover{
+    letter-spacing: 5px;
+  }
+  #sobremi .foto1{
+    background-image: url("../img/foto1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sobremi a{
+    border: 1px inset #333333;
+    background-color:#333333;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    width: 35%;
+    text-align: center;
+    margin: 0% auto;
+    transition: 700ms ease;
+  }
+  #sobremi a:hover{
+    background-color: #2AC1C6;
+  }
+  #hobbies{
+    background-image: url("../img/foto3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+  }
+  #hobbies div p{
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  #metas{
+    background-color: #136365;
+    height: 100vh;
+    display: flex;
+  }
+  #metas div{
+    flex: 50%;
+    padding: 20px;
+    text-align: right;
+  }
+  #metas div p{
+    text-align: justify;
+    font-style: initial;
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+  #metas h3{
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: left;
+  }
+  #metas h3:hover {
+      letter-spacing: 2px;
+  }
+  #metas h4{
+    text-align: right;
+    font-size: 50px;
+    color: #FFFFFF;
+  }
+  #metas h4:hover {
+    letter-spacing: 2px;
+  }
+  #metas .foto4{
+    background-image: url("../img/foto4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #trabajos{
+    height: 100vh;
+    background-color: #153333;
+    display: flex;
+  }
+  #trabajos div{
+    flex: 50%;
+    padding: 20px;
+    text-align: right;
+  }
+  #trabajos div p{
+  text-align: justify;
+  font-family: 'Barlow';
+  font-style: initial;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+#trabajos h5{
+  text-align: center;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+#trabajos h5:hover{
+  letter-spacing: 2px;
+  }
+  #trabajos .foto5{
+    background-image: url("../img/foto5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #contacto{
+    background-color: #333333;
+    height: 10vh;
+    padding: 20px;
+  }
+  #contacto h6{
+    text-align: left;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  #contacto img{
+    width: 50px;
+    height: auto;
+  }
+  footer{
+    padding: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
